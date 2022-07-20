@@ -3,10 +3,10 @@
 Перед началом ознакомления [скачайте и установите](https://akashlytics.com/deploy) ПО Akashlytics на свой рабочий компьютер.
 
 В этой статье:
-1. [Создание аккаунта и подготовка к кработе](https://github.com/Dimokus88/guides/edit/main/Akashlytics/RU-guide.md#%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B0%D0%BA%D0%BA%D0%B0%D1%83%D0%BD%D1%82%D0%B0-%D0%B8-%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5).
-2. Открыть развертывание.
-3. Содержимое окна разветывания
-4. Закрыть развертывание
+1. [Создание аккаунта и подготовка к кработе](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B0%D0%BA%D0%BA%D0%B0%D1%83%D0%BD%D1%82%D0%B0-%D0%B8-%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5).
+2. [Открыть развертывание](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5).
+3. [Содержимое окна разветывания](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D0%BC%D0%BE%D0%B5-%D0%BE%D0%BA%D0%BD%D0%B0-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)
+4. [Закрыть развертывание](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D1%8C-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
 5. Обзор Akashlitycs
 
 ## Создание аккаунта и подготовка к работе.
