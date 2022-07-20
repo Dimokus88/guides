@@ -1,16 +1,21 @@
 # Обзор и руководство по использованию кастомного пользовательского интерфейса Akashlytics.
 
-Перед началом ознакомления [скачайте и установите](https://akashlytics.com/deploy) ПО Akashlytics на свой рабочий компьютер.
+Перед началом ознакомления ***[скачайте и установите](https://akashlytics.com/deploy) ПО Akashlytics*** на свой рабочий компьютер.
 
-В этой статье:
+___
+
+#### В этой статье:
 1. [Создание аккаунта и подготовка к кработе](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B0%D0%BA%D0%BA%D0%B0%D1%83%D0%BD%D1%82%D0%B0-%D0%B8-%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5).
 2. [Открыть развертывание](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5).
 3. [Содержимое окна разветывания](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D0%BC%D0%BE%D0%B5-%D0%BE%D0%BA%D0%BD%D0%B0-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)
 4. [Закрыть развертывание](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D1%8C-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
 5. Обзор Akashlitycs
 
+___
+
 ## Создание аккаунта и подготовка к работе.
-После установки, при первом запуске, будет предложено создать адрес в сети Akash или испортировать уже имеющийся по seed фразе:
+
+После установки, при первом запуске, будет предложено создать адрес в сети ```Akash``` или испортировать уже имеющийся по seed фразе:
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179983489-a8b76248-edea-4356-8e87-3ec2761ae8b8.png" width=30% </p>
 
@@ -22,14 +27,15 @@
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179984518-4d68dba5-2914-40e5-a8d1-8c193c7db6f3.png" width=30% </p>
 
-готово, аккаунт успешно создан!
-в появившемся окне можете выбрать любую удобную биржу для приобритения токенов AKT. Следует учитывать что при каждом развертывание на счете блокируются 5 AKT + требуется небольшое количество AKT для оплаты газа. Таким образом, для теста лучше будет достаточно пополнить счет на 6 АКТ. В примере я пополню тестовый счет akash1wnejkh7vfjxcavmt43dratujdw5vkzynt94zrg на 6 АКТ.
-
-Счет пополнен, теперь необходимо запросить и установить локльно сертификат из блокчейна, для этого справа вверху нажмите ***Create Deployment***
+Готово, аккаунт успешно создан!
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179985902-ac2a82cd-522c-4a24-b1d6-6f5c16f24fbe.png" width=30% </p>
+  В появившемся окне можете выбрать любую удобную биржу для приобритения токенов ***AKT*** . Следует учитывать что при каждом развертывание на счете блокируются ***5 AKT*** + требуется небольшое количество ***AKT*** для оплаты газа. Таким образом, для теста лучше будет достаточно пополнить счет на ***6 АКТ***. В примере я пополню тестовый счет ```akash1wnejkh7vfjxcavmt43dratujdw5vkzynt94zrg``` на ***6 АКТ***.
 
-Введите пароль указанный при создании аккаунта:
+Счет пополнен, теперь необходимо запросить и установить локально сертификат из блокчейна, для этого справа вверху нажмите ***CREATE CERTIFICATE***
+  
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179985902-ac2a82cd-522c-4a24-b1d6-6f5c16f24fbe.png" width=60% </p>
+
+Введите пароль указанный при ***создании аккаунта***:
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179986384-90fc70fe-3c6e-4a71-8592-ccd2d04dcb7c.png" width=30% </p>
 
@@ -39,56 +45,56 @@
 
 Сертификат создан, вы можете его увидеть в правом верхнем углу окна:
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179986849-36066744-450f-440a-a392-542afcc3b883.png" width=30% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179986849-36066744-450f-440a-a392-542afcc3b883.png" width=50% </p>
 
 Подготовка завершена, теперь сделаем тестовое разветывание.
 
 ## Тестовое развертывание
 
-В Акашлитик есть готовые файлы манифеста (deploy.yml), они находятся во вкладке Template, ознакомьтесь с предложением готовых решений: 
+В ***Akashlytics*** есть готовые файлы ***манифеста (deploy.yml)***, они находятся во вкладке ```Templates```, ознакомьтесь с предложением готовых решений: 
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179993135-a0b5f5d1-8236-41f1-886b-8bfe664c8358.png" width=30% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179993135-a0b5f5d1-8236-41f1-886b-8bfe664c8358.png" width=60% </p>
 
-Развернем всем известную игру Super Mario, для этого выберем соответствующий раздел в Templeate и нажмем на Super Mario:
+Развернем всем известную игру ***Super Mario***, для этого выберем соответствующий раздел в ```Templeates``` и нажмем на ```Super Mario```:
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179993710-bdf5464e-a8cf-4426-857a-92ae80d7f3c7.png" width=30% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179993710-bdf5464e-a8cf-4426-857a-92ae80d7f3c7.png" width=60% </p>
 
-Нажимаем Deploy 
+Нажимаем ***Deploy***: 
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179993892-8a2b96bb-b529-46f7-92bb-2f5e34ac3c87.png" width=30% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179993892-8a2b96bb-b529-46f7-92bb-2f5e34ac3c87.png" width=60% </p>
 
-Akashlytics быстро проверяет наличие сертификата и 5 АКТ на балансе, и открывает заполненное окно манифеста (deploy.yml), остановимся на содержимом манифеста:
+***Akashlytics*** быстро проверяет наличие сертификата и ***5 АКТ*** на балансе, и открывает заполненное окно ***манифеста (deploy.yml)***, остановимся на содержимом манифеста:
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179994491-9ddb00f5-14ea-4430-ae43-1d23e406c854.png" width=30% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179994491-9ddb00f5-14ea-4430-ae43-1d23e406c854.png" width=60% </p>
 
 Здесь обратите внимание на:
 
-Раздел services (строки 4-11). В строке 6 указан образ в Docker hub из которого будет развернут контейнер, в нашем случае это pengbai/docker-supermario. Подраздел expose отвечает за открытия и переадресацию портов. В нашем случае это порт 8080 предтавляем как 80 внешний.
+Раздел ```services``` (строки 4-11). В строке 6 указан образ в ***Docker hub*** из которого будет развернут контейнер, в нашем случае это ```pengbai/docker-supermario```. Подраздел ***expose*** отвечает за открытия и переадресацию портов. В нашем случае это порт 8080 представляем как 80 внешний.
 
-Раздел profiles (строки 13-22) здесь в подразделе resources мы указываем арендуемые характериски оборудование под наше контейнер с игруой Super Mario. В нашем случай это 1 cpu, 512 мб оперативной памяти и 512мб жесткого диска. Задайте ввеху имя развертывнаия и нажимите Create deployment.
+Раздел ```profiles``` (строки 13-22) здесь в подразделе ```resources``` мы указываем арендуемые характериски оборудование под наше контейнер с игруой ***Super Mario***. В нашем случай это ```1 cpu, 512 мб оперативной памяти и 512мб жесткого диска```. Задайте ввеху имя развертывания и нажимите ***CREATE DEPLOYMENT***.
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179996364-3f4591e3-731c-41b3-91ae-d580fc6bad8e.png" width=30% </p>
 
-Депонируем 5 АКТ из нашего счета, нажимаем DEPOSIT
+Депонируем ***5 АКТ*** из нашего счета, нажимаем ```DEPOSIT```:
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179996501-52b33027-2be4-4791-b238-93ca79de8e47.png" width=30% </p>
 
-Устанавливаем развер комиссии за транхакцию и подтверждаем ее. На данном этапе мы оптравили в сеть хапрос на мощности для нашего конетйнера с игрой. Нам остается дождаться ответа от провайдеров с их предложениями и ценами. Обратите внимание, у вас со счет были депонированы 5 АКТ.
+Устанавливаем развер комиссии за транpакцию и подтверждаем ее. На данном этапе мы отgравили в сеть запрос на мощности для нашего конетйнера с игрой. Нам остается дождаться ответа от провайдеров с их предложениями и ценами. ***Обратите внимание, у вас со счет были депонированы 5 АКТ***.
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179997193-2c4793bf-392f-4d7d-81a9-8e1326083cf2.png" width=30% </p>
 
-Выбираем провайдера и нажимаем accept bid, еще раз устанавливаем комиссию для транзакиции и подтверждаем ее. Дождаемся развертки контейнера. После того как контейнер развернут, перейдите на вкладку Leases.
-  
+Выбираем провайдера и нажимаем ```ACCEPT BID```, еще раз устанавливаем комиссию для транзакиции и подтверждаем ее. Дождаемся развертки контейнера. После того как контейнер развернут, перейдите на вкладку ```LEASES```.
+ 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179997878-7d6eb433-24ef-4b67-b829-d47c858553bd.png" width=30% </p>
 
 Здесь доступна информация о вашем провайдере, стоимости аренды, а также индивидуальная ссылка на ваше развертывание. Нажмите на нее.
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179998220-473b42ec-144f-4bff-b640-801fc727983b.png" width=30% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179998220-473b42ec-144f-4bff-b640-801fc727983b.png" width=60% </p>
 
-Отлично! Похоже вы развернули игру в Akash Network! Но вам же нужно нечно большее? Тогда перейдите к разделу описания функционала Akashlitics =)
-
-Закрываем развертывание
-
+Отлично! Похоже вы развернули игру в Akash Network! Но вам же нужно нечто большее чем игра? Тогда перейдите к разделу описания функционала ***Akashlytics*** =)
+  
+___  
+  
 Обзор содержимого.
 
 Dashboard 
@@ -105,56 +111,47 @@ Settings
 
 Во вкладке DASHBOARDS отображаются ваши активные разветывания, зайдите в него.
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180011860-0b25c946-c681-42e5-92eb-53685e42233c.png" width=30% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180011860-0b25c946-c681-42e5-92eb-53685e42233c.png" width=60% </p>
 
 Как узнали раннее, во вкладке LEASES содержится общая информация о развертывании - провайдер, ресурсы, переадресованный порты и ссылки.
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180012152-b6245abd-6be0-4030-ba1f-be4a9c9c2339.png" width=30% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180012152-b6245abd-6be0-4030-ba1f-be4a9c9c2339.png" width=60% </p>
 
 
 Во вкладке LOGS есть еще 2 подраздела, это подраздел LOGS - сдесь отображаются логи ВНУТРИ контейнера (нажав кнопку DOWNLOADS LOGS можно их скачать в файл):
 
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180012615-25fd934f-b191-415a-9994-d9449bc71cdf.png" width=30% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180012615-25fd934f-b191-415a-9994-d9449bc71cdf.png" width=50% </p>
 
 
 и подраздел EVENTS - здесь отображаются логи k8s и процесс скачивания и старта вашего образа:
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180013447-fc46589d-70df-486e-92cd-9cad9571824a.png" width=30% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180013447-fc46589d-70df-486e-92cd-9cad9571824a.png" width=50% </p>
 
 На вкладке SHELL можете использовать некоторые НЕ интерктивные команды внитури контейнера
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180014038-5a6157d5-8329-4ffd-8feb-a3414050434e.png" width=30% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180014038-5a6157d5-8329-4ffd-8feb-a3414050434e.png" width=50% </p>
 
 Вкладка UPDATE содержит текущий манифест (deploy.yml), здесь вы можете добваить переменные или изменить версию образа, в этом случае контейнер будет перезапущен. (ВАЖНО! Нельзя изменить ресурсы! Для этого надо закрыть равертывание и развернуть заново!)
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180014538-95597f58-1d4b-4bc7-9ed4-eba9339b3a58.png" width=30% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180014538-95597f58-1d4b-4bc7-9ed4-eba9339b3a58.png" width=50% </p>
 
 Вкладка RAW DATA содержит JSON информацию из блокчейна AKASH
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180014764-02b11971-e727-4156-8eb6-5e1900f2f1f1.png" width=30% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180014764-02b11971-e727-4156-8eb6-5e1900f2f1f1.png" width=50% </p>
 
 
 ## Закрыть развертывание
 
 Чтобы закрыть развертывание необходимо в контекстном меню нажать CLOSE и подтвердить транзакцию
 
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180015653-5471583b-51fa-4940-819e-79d1d518b826.png" width=30% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180015653-5471583b-51fa-4940-819e-79d1d518b826.png" width=60% </p>
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180015752-d304b327-45fc-4629-93f2-7e79c0505931.png" width=30% </p>
 
 
 После закрытия развертывание остаток АКТ вернется на ваш основной счет.
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180015965-c3044adc-4352-428c-9d1e-cec2f3e38ae9.png" width=30% </p>
-
-
-
-
-
-
-
-
-
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180015965-c3044adc-4352-428c-9d1e-cec2f3e38ae9.png" width=60% </p>
 
 
 
