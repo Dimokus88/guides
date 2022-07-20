@@ -1,7 +1,7 @@
 <div align="center">
   
 ![pba](https://user-images.githubusercontent.com/23629420/163564929-166f6a01-a6e2-4412-a4e9-40e54c821f05.png)
-# Akashlytics custom user interface overview and guide.
+# Akashlytics - custom user interface, overview and guide.
 
   </div>
   
@@ -22,8 +22,8 @@ Before you begin, ***[download and install](https://akashlytics.com/deploy) the 
 
 ___
 
-#### В этой статье:
-1. [Create an account and prepare for work](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B0%D0%BA%D0%BA%D0%B0%D1%83%D0%BD%D1%82%D0%B0-%D0%B8-%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5).
+#### In this guide:
+1. [Create an account and prepare for work](https://github.com/Dimokus88/guides/blob/main/Akashlytics/EN-guide.md#create-an-account-and-prepare-for-work).
 2. [Open Deployment](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5).
 3. [The contents of the window](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D0%BC%D0%BE%D0%B5-%D0%BE%D0%BA%D0%BD%D0%B0-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)
 4. [Close Deployment](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D1%8C-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
