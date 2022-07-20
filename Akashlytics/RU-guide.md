@@ -1,6 +1,24 @@
+<div align="center">
+  
+![pba](https://user-images.githubusercontent.com/23629420/163564929-166f6a01-a6e2-4412-a4e9-40e54c821f05.png)
 # Обзор и руководство по использованию кастомного пользовательского интерфейса Akashlytics.
 
+  </div>
+  
+<div align="center">
+
+| [Akash Network](https://akash.network/) | [Forum Akash Network](https://forum.akash.network/) | 
+|:--:|:--:|
+___
+
+Наши новостные каналы и русскоязычная техническая поддержка:
+
+| [Discord Akash](https://discord.gg/WR56y8Wt) | [Telegram Akash EN](https://t.me/AkashNW) | [Telegram Akash RU](https://t.me/akash_ru) | [TwitterAkash](https://twitter.com/akashnet_) | [TwitterAkashRU](https://twitter.com/akash_ru) |
+|:--:|:--:|:--:|:--:|:--:|
+
 Перед началом ознакомления ***[скачайте и установите](https://akashlytics.com/deploy) ПО Akashlytics*** на свой рабочий компьютер.
+  
+</div>
 
 ___
 
