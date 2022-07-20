@@ -103,23 +103,6 @@ ___
   
 ___  
   
-Обзор содержимого.
-
-Dashboard 
-активные развертивания
-
-Deployments 
-все, когда либо созданные разветывание на вашем адресе.
-
-Template
-Providers
-Settings
-
-  
-[Вернуться к содержанию.](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
-
-___
-  
 ## Содержимое окна развертывания
 
 Во вкладке ```Dashboard``` отображаются ваши активные разветывания, зайдите в него.
@@ -173,3 +156,29 @@ ___
 
 ___
 
+  
+Обзор функционала Akashlytics.
+  
+Dashboard - здесь указаны актуальные параметры вашего счета(1), текущее состояние аренды в сети(2) и ваши актичные развертывания развертивания(3).
+  
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180029956-c9c5ac9f-ee58-4242-ab3b-82c374ee7379.png" width=60% </p>
+
+Deployments - все, когда либо созданные разветывания на вашем адресе, включая не активные.
+  
+  <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180030091-a9ccf0ee-ecbf-4d18-a005-17bb09ab9cd9.png" width=60% </p>
+
+Templates - готовые решения для развертываний, игры, БД, конструкторы сайтов, майнер и т.д.
+    
+  <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180030306-92134590-17c3-4bf0-9032-79245425755f.png" width=60% </p>
+  
+Provider - список существующих провайдеров в маркетплейсе Akash Network с параметрами их оборудования.
+    
+ <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180030505-c704159c-6820-4d86-8ea6-66c5eedb71b5.png" width=60% </p> 
+
+Settings - настройка RPC ноды приложения (1). Так же доступно быстрое переключение в поле вверху окна (2)
+   
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/180031581-545f3439-702d-45e2-8d53-3d4f97d845ce.png" width=60% </p>
+  
+[Вернуться к содержанию.](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
+
+___
