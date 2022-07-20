@@ -24,10 +24,10 @@ ___
 
 #### In this guide:
 1. [Create an account and prepare for work](https://github.com/Dimokus88/guides/blob/main/Akashlytics/EN-guide.md#create-an-account-and-prepare-for-work).
-2. [Open Deployment](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5).
-3. [The contents of the window](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D0%BC%D0%BE%D0%B5-%D0%BE%D0%BA%D0%BD%D0%B0-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)
-4. [Close Deployment](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D1%8C-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
-5. [Overview Akashlitycs](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D0%BE%D0%B1%D0%B7%D0%BE%D1%80-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%B0-akashlytics)
+2. [Open Deployment](https://github.com/Dimokus88/guides/blob/main/Akashlytics/EN-guide.md#test-deploy).
+3. [Deployment window content.](https://github.com/Dimokus88/guides/blob/main/Akashlytics/EN-guide.md#deployment-window-content)
+4. [Close Deployment](https://github.com/Dimokus88/guides/blob/main/Akashlytics/EN-guide.md#close-deployment)
+5. [Overview Akashlitycs](https://github.com/Dimokus88/guides/blob/main/Akashlytics/EN-guide.md#overview-of-akashlytics-functionality)
 
 ___
 
@@ -69,7 +69,7 @@ The certificate has been created, you can see it in the upper right corner of th
 
 Preparation is complete, now create a test deploy.
 
-[Return to content.](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
+[Return](https://github.com/Dimokus88/guides/blob/main/Akashlytics/EN-guide.md#in-this-guide)
   
 ___
 
@@ -116,7 +116,7 @@ Here you can find information about your provider, the cost of renting, as well 
 
 Excellent! Looks like you deployed the game to ***Akash Network***! But do you need something more than a game? Then go to the functional description section ***Akashlytics*** =)
   
-[Return to content.](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
+[Return](https://github.com/Dimokus88/guides/blob/main/Akashlytics/EN-guide.md#in-this-guide)
   
 ___  
   
@@ -150,7 +150,7 @@ The ```RAW DATA``` tab contains ```JSON``` information from the ```AKASH``` bloc
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180014764-02b11971-e727-4156-8eb6-5e1900f2f1f1.png" width=50% </p>
 
-[Return to content.](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
+[Return](https://github.com/Dimokus88/guides/blob/main/Akashlytics/EN-guide.md#in-this-guide)
 
 ___
   
@@ -169,7 +169,7 @@ After the deployment is closed, the balance of ***AKT*** will be returned to you
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180015965-c3044adc-4352-428c-9d1e-cec2f3e38ae9.png" width=60% </p>
 
 
-[Return to content.](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
+[Return](https://github.com/Dimokus88/guides/blob/main/Akashlytics/EN-guide.md#in-this-guide)
 
 ___
 
@@ -196,6 +196,6 @@ ___
    
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/180031581-545f3439-702d-45e2-8d53-3d4f97d845ce.png" width=60% </p>
   
-[Return to content.](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md#%D0%B2-%D1%8D%D1%82%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5)
+[Return](https://github.com/Dimokus88/guides/blob/main/Akashlytics/EN-guide.md#in-this-guide)
 
 ___
