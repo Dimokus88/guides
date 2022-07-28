@@ -37,7 +37,7 @@ ___
 ### Deploy.yml полной ноды (RPC ноды).
 
 Основой запуска нод стандарта **Cosmos SDK** у меня является этот [скрипт](https://github.com/Dimokus88/universe/blob/main/main.sh).
-Для запуска ноды без функции валидатора вам потребуется просто скопировать этот [deploy.yml](https://github.com/Dimokus88/universe/blob/main/deploy.yml), заполнить переменные для необходимой вам сети и развернуть его в **Akash Network** через CLI или
+Для запуска ноды без функции валидатора вам потребуется просто скопировать этот [deploy.yml](https://github.com/Dimokus88/universe/blob/main/alphatest/deployRPCnode.yml), заполнить переменные для необходимой вам сети и развернуть его в **Akash Network** через CLI или
 пользовательский интерфейс Akashlytics, [инструкция по использованию Akashlytics](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md) прилагается.
 
 Можете воспользоваться готовыми решениями или подключится самостоятельно используя описание ниже.
@@ -71,7 +71,7 @@ ___
 
 ### Deploy.yml валидатора сети. 
 
-Здесь как и в [предъидущем пункте](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/Guide_RU.md#deployyml-%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D0%B9-%D0%BD%D0%BE%D0%B4%D1%8B-rpc-%D0%BD%D0%BE%D0%B4%D1%8B) используется тот же [скрипт](https://github.com/Dimokus88/universe/blob/main/main.sh) . Для запуска ноды валидатора к переменным из пункта выше необходимо добавить переменные:
+Здесь как и в [предъидущем пункте](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/Guide_RU.md#deployyml-%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D0%B9-%D0%BD%D0%BE%D0%B4%D1%8B-rpc-%D0%BD%D0%BE%D0%B4%D1%8B) используется тот же [скрипт](https://github.com/Dimokus88/universe/blob/main/main.sh) . Для запуска ноды валидатора в [deploy.yml](https://github.com/Dimokus88/universe/blob/main/alphatest/deployValidatorNode.yml) к переменным из пункта выше мы добавляем переменные:
 
      - "MNEMONIC=" - seed фраза от кошелька (аккаунта) валидатора. Seed фразу можете сгенерировать в любом кошельке экосиситемы Cosmos SDK, например Keplr или Cosmostation
      - "LINK_KEY=" - ссылка на прямое скачивание priv_validator_key.json, как ее получить описано тут. Если у вас еще нет этого файла - оставьте эту строку пустой и обратитесь к этой части.
