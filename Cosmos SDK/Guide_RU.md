@@ -67,6 +67,7 @@ ___
 
 Далее рассмотрим **deploy.yml** для ноды **валидатора сети**.
 
+[К началу](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/Guide_RU.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5).
 
 ### Deploy.yml валидатора сети. 
 
@@ -78,6 +79,8 @@ ___
      - "autodelegate=" - для включения функции автоделегирования присвойте значение переменной yes (autodelegate=yes)
 
 Для создания валидатора вам потребуются токены тестовой сети, их можно запросить **в социальных сетях проекта у команды**.
+
+[К началу](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/Guide_RU.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5).
 
 #### Если у вас еще нет этого файла priv_validator_key.json:
 
@@ -106,6 +109,8 @@ ___
 Таким образом, у вас получится ссылка на прямое скачивание файла:
 ```https://drive.google.com/uc?export=download&id=xxxxxxxxxxxxxx-xxxxxxxxxxxx``` . Сохраните ее.
 
+[К началу](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/Guide_RU.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5).
+
 ## Процесс развертывания.
 
 * Проверяем наличие баланса (>5АКТ) и наличие установленного сертификата.
@@ -125,6 +130,8 @@ ___
 Ждем заверщения развертывания.
 
 * В вкладке ```LOGS``` можете наблюдать работу ноды.  После чего будет создан валидатор (если он не был созда ранее) и нода войдет в автоматический режим работы.
+
+[К началу](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/Guide_RU.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5).
 
 ## Команды для командной стороки проектов экосистемы Cosmos SDK.
 
@@ -255,3 +262,5 @@ $binary tx slashing unjail --from <адрес_кошелька> --fees 500$denom
 ```
 curl localhost:26657/status
 ```
+
+[К началу](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/Guide_RU.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5).
