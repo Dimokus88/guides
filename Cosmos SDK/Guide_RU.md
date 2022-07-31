@@ -186,7 +186,7 @@ $binary tx bank send <адрес_кошелька_отправителя> <ад�
 Создать валидатора
 
 ```
-$binary tx staking create-validator --chain-id <chain> --commission-rate 0.05 --commission-max-rate 0.2 --commission-max-change-rate 0.1 --min-self-delegation "1000000" dermint show-validator) --moniker "<имя_ноды>" --from <адрес_кошелька> --fees 5555$denom
+$binary tx staking create-validator --amount="1000000$denom" --pubkey=$($binary tendermint show-validator) --moniker="$MONIKER"	--chain-id="$chain"	--commission-rate="0.10" --commission-max-rate="0.20" --commission-max-change-rate="0.01" --min-self-delegation="1000000" --gas="auto"	--from="$address" --fees="5550$denom" -y
 ```
 
 Проверить pubkey валидатора
