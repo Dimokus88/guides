@@ -1,50 +1,49 @@
-## Команды для командной стороки проектов экосистемы Cosmos SDK.
-
-Как я уже написал в начале статьи Cosmos SDK это стандарт, команды для нод на базе Cosmos SDK тока же будут отвечать общим принципам.
+## Команды для командной строки проектов экосистемы Cosmos SDK.
+## Commands for the command line of Cosmos SDK ecosystem projects.
 
 > $binary - здесь бинарный файл проекта, у каждого он свой, как и denom и chain-id
+> $binary - here is the binary file of the project, each has its own, like denom and chain-id
  
- 1. [Команды аккаунта (кошелька)](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD.md#%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%B0%D0%BA%D0%BA%D0%B0%D1%83%D0%BD%D1%82%D0%B0-%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D1%8C%D0%BA%D0%B0)
+ 1. [Account (wallet) commands | Команды аккаунта (кошелька)](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD.md#%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%B0%D0%BA%D0%BA%D0%B0%D1%83%D0%BD%D1%82%D0%B0-%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D1%8C%D0%BA%D0%B0)
  2. [Команды валидатора](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD.md#%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%B0%D1%82%D0%BE%D1%80%D0%B0)
  3. [Команды голосования](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD.md#%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%B3%D0%BE%D0%BB%D0%BE%D1%81%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)
  4. [Команды настроек сети](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD.md#%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BA-%D1%81%D0%B5%D1%82%D0%B8)
  
+##### Account (wallet) commands
  
 ##### Команды аккаунта (кошелька)
 
-Cоздать кошелек
+Create wallet | Cоздать кошелек
 
 ```
-$binary keys add <имя_кошелька> --keyring-backend os
+$binary keys add <WALLET_NAME> --keyring-backend os
 ```
 
-Восстановить кошелек (после команды вставить seed)
+Restore wallet (after insert seed command) | Восстановить кошелек (после команды вставить seed)
 
 ```
-$binary keys add <имя_кошелька> --recover --keyring-backend os
+$binary keys add <WALLET_NAME> --recover --keyring-backend os
 ```
 
-Подключить кошелек ledger
+Connect ledger wallet | Подключить кошелек ledger
 
 ```
-$binary keys add <имя_кошелька> --ledger 
+$binary keys add <WALLET_NAME> --ledger 
 ```
 
-Проверить баланс
+Check balance | Проверить баланс
 
 ```
-$binary keys q bank balances <адрес_кошелька>
+$binary keys q bank balances <ADDRESS>
 ```
 
-Отправить 1 токен на другой адрес
+Send 1 token to another address | Отправить 1 токен на другой адрес
 
 ```
-$binary tx bank send <адрес_кошелька_отправителя> <адрес_кошелька_получателя> 1000000$denom --fees 500$denom -y
+$binary tx bank send <ADDRESS_FROM> <ADDRESS_TO> 1000000$denom --fees 500$denom -y
 ```
 
-[К основному списку](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD.md#%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D1%8D%D0%BA%D0%BE%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-cosmos-sdk) .
-
-[К началу](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5).
+[UP | Наверх](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD.md#%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D1%8D%D0%BA%D0%BE%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-cosmos-sdk) .
 
 ##### Команды валидатора
 
