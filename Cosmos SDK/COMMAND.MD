@@ -43,7 +43,7 @@ Send 1 token to another address | Отправить 1 токен на друг�
 $binary tx bank send <ADDRESS_FROM> <ADDRESS_TO> 1000000$denom --fees 500$denom -y
 ```
 
-[UP | Наверх](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD.md#%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D1%8D%D0%BA%D0%BE%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-cosmos-sdk) .
+[UP | Наверх](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#commands-for-the-command-line-of-cosmos-sdk-ecosystem-projects) .
 
 ##### Команды валидатора
 
@@ -81,9 +81,7 @@ $binary tx distribution withdraw-rewards <valoper_address> --from <адрес_к
 $binary tx staking delegate <valoper_address> 1000000$denom --from <адрес_кошелька> --fees 500$denom -y
 ```
 
-[К основному списку](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD.md#%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D1%8D%D0%BA%D0%BE%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-cosmos-sdk) .
-
-[К началу](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5).
+[UP | Наверх](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#commands-for-the-command-line-of-cosmos-sdk-ecosystem-projects) .
   
 ##### Команды голосования
   
@@ -117,9 +115,7 @@ $binary tx gov deposit 1 1000000utori --from <адрес_кошелька> --fee
 $binary tx gov submit-proposal --title="Randomly reward" --description="Reward 10 testnet participants who completed more than 3 tasks" --type="Text" --deposit="11000000$denom" --from <адрес_кошелька> --fees 500$denom
 ```
   
-[К основному списку](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D1%8D%D0%BA%D0%BE%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-cosmos-sdk) .
-
-[К началу](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5).  
+[UP | Наверх](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#commands-for-the-command-line-of-cosmos-sdk-ecosystem-projects) .
   
 ##### Команды настроек сети
   
@@ -149,4 +145,4 @@ $binary q slashing signing-info <valoper_address> --trust-node
 curl localhost:26657/status
 ```
 
-[К основному списку](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD.md#%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D1%8D%D0%BA%D0%BE%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-cosmos-sdk) .
+[UP | Наверх](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#commands-for-the-command-line-of-cosmos-sdk-ecosystem-projects) .
