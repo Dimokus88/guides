@@ -1,5 +1,5 @@
-## Команды для командной строки проектов экосистемы Cosmos SDK.
 ## Commands for the command line of Cosmos SDK ecosystem projects.
+## Команды для командной строки проектов экосистемы Cosmos SDK.
 
 > $binary - здесь бинарный файл проекта, у каждого он свой, как и denom и chain-id
 > $binary - here is the binary file of the project, each has its own, like denom and chain-id
