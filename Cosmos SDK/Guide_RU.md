@@ -275,6 +275,10 @@ $binary q slashing params
 $binary tx slashing unjail --from <адрес_кошелька> --fees 500$denom -y
 ```
 
+```
+$binary q slashing signing-info <valoper_address> --trust-node
+```
+
 Проверить статус
 
 ```
