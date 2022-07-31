@@ -1,12 +1,13 @@
 ## Commands for the command line of Cosmos SDK ecosystem projects.
 ## Команды для командной строки проектов экосистемы Cosmos SDK.
 
-> $binary - здесь бинарный файл проекта, у каждого он свой, как и denom и chain-id
 > $binary - here is the binary file of the project, each has its own, like denom and chain-id
  
+> $binary - здесь бинарный файл проекта, у каждого он свой, как и denom и chain-id
+
  1. [Account (wallet) commands | Команды аккаунта (кошелька)](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#account-wallet-commands)
  2. [Validator Commands | Команды валидатора](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#validator-commands)
- 3. [Voting commands | Команды голосования](hhttps://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#voting-commands)
+ 3. [Voting commands | Команды голосования](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#voting-commands)
  4. [Network settings commands | Команды настроек сети](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#network-settings-commands)
  
 ##### Account (wallet) commands
