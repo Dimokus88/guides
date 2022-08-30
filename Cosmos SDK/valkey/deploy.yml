@@ -1,0 +1,40 @@
+---
+version: "2.0"
+
+services:
+  app:
+    image: dimokus88/ubuntu:1.1
+    command:
+      - "bash"
+      - "-c"
+    args:
+      - 'curl -s  https://raw.githubusercontent.com/Dimokus88/guides/main/Cosmos%20SDK/valkey/main.sh | bash '
+    expose:
+      - port: 80
+        as: 80
+        to:
+          - global: true
+        
+profiles:
+  compute:
+    app:
+      resources:
+        cpu:
+          units: 1.0
+        memory:
+          size: 1Gi
+        storage:
+          size: 5Gi
+        
+        
+  placement:
+    akash:     
+      pricing:
+        app:
+          denom: uakt
+          amount: 10000
+deployment:
+  app:
+    akash:
+      profile: app
+      count: 1 
