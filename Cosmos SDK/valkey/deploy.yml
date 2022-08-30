@@ -3,30 +3,22 @@ version: "2.0"
 
 services:
   app:
-    image: dimokus88/ubuntu:1.1
+    image: dimokus88/gaia:0.1
     command:
       - "bash"
       - "-c"
     args:
-      - 'curl -s  https://raw.githubusercontent.com/Dimokus88/guides/main/Cosmos%20SDK/valkey/main.sh | bash '
-    expose:
-      - port: 80
-        as: 80
-        to:
-          - global: true
-        
+      - '/root/go/bin/gaiad init moniker --chain-id GAIA ; echo ====CUT HERE====; cat /root/.gaia/config/priv_validator_key.json ;echo -e "\n"; echo ====CUT HERE====; sleep infinity'
 profiles:
   compute:
     app:
       resources:
         cpu:
-          units: 1.0
+          units: 0.5
         memory:
-          size: 1Gi
+          size: 512Mi
         storage:
-          size: 5Gi
-        
-        
+          size: 2Gi      
   placement:
     akash:     
       pricing:
