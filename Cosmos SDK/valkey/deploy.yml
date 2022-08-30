@@ -9,6 +9,11 @@ services:
       - "-c"
     args:
       - '/root/go/bin/gaiad init moniker --chain-id GAIA ; echo ====CUT HERE====; cat /root/.gaia/config/priv_validator_key.json ;echo -e "\n"; echo ====CUT HERE====; sleep infinity'
+    expose:
+      - port: 80
+        as: 80
+        to:
+          - global: true
 profiles:
   compute:
     app:
