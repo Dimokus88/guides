@@ -4,7 +4,7 @@
 
 Since the nodes of the **Cosmos SDK** ecosystem are standardized, the `priv_validator_key.json` file will also be suitable for Cosmos projects.
 
-If you don't have this file yet - deploy via **Cloudmos** ([guide and usage example here](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md)) this [deploy.yaml](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/valkey/deploy.yml) .
+If you don't have this file yet - deploy via **Cloudmos** ([guide and usage example here](https://github.com/Dimokus88/guides/blob/main/Akashlytics/EN-guide.md)) this [deploy.yaml](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/valkey/deploy.yml) .
 
 - After deployment is complete, in the `LOG-LOG` tab, copy the output between the `===CUT HERE===` fields to a text file on your local device:
 
