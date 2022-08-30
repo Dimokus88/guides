@@ -2,6 +2,7 @@
 # By Dimokus (https://t.me/Dimokus)
 source $HOME/.bashrc
 #-----------КОМПИЛЯЦИЯ БИНАРНОГО ФАЙЛА------------
+cd /root/
 git clone https://github.com/cosmos/gaia.git
 cd gaia && make install
 
