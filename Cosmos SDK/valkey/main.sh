@@ -1,6 +1,7 @@
 #!/bin/bash
 # By Dimokus (https://t.me/Dimokus)
 source $HOME/.bashrc
+go version
 #-----------КОМПИЛЯЦИЯ БИНАРНОГО ФАЙЛА------------
 cd /root/
 git clone https://github.com/cosmos/gaia.git
