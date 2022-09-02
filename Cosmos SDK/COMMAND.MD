@@ -35,7 +35,7 @@ $binary keys add <WALLET_NAME> --ledger
 Check balance | Проверить баланс
 
 ```
-$binary keys q bank balances <ADDRESS>
+$binary q bank balances <ADDRESS>
 ```
 
 Send 1 token to another address | Отправить 1 токен на другой адрес
