@@ -142,7 +142,7 @@ $binary tx slashing unjail --from <ADDRESS> --fees 500$denom -y
 ```
 
 ```
-$binary q slashing signing-info <valoper_address> --trust-node
+$binary q slashing signing-info $($binary tendermint show-validator)
 ```
 
 Check Status | Проверить статус
