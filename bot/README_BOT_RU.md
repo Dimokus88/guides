@@ -26,3 +26,4 @@
 ```
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/190231394-3208b9a0-3313-485f-86af-3e949bce93db.png" width=50% </p>
 
+* После синхронизации ноды отправьте сообщение боту `/start`
