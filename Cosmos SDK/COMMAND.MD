@@ -41,7 +41,7 @@ $binary q bank balances <ADDRESS>
 Send 1 token to another address | Отправить 1 токен на другой адрес
 
 ```
-$binary tx bank send <ADDRESS_FROM> <ADDRESS_TO> 1000000$denom --fees 500$denom -y
+$binary tx bank send <ADDRESS_FROM> <ADDRESS_TO> 1000000$DENOM --fees 500$DENOM -y
 ```
 
 [UP | Наверх](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#commands-for-the-command-line-of-cosmos-sdk-ecosystem-projects) .
@@ -52,7 +52,7 @@ $binary tx bank send <ADDRESS_FROM> <ADDRESS_TO> 1000000$denom --fees 500$denom 
 Create a validator | Создать валидатора
 
 ```
-$binary tx staking create-validator --amount="1000000$denom" --pubkey=$($binary tendermint show-validator) --moniker="$MONIKER"	--chain-id="$chain"	--commission-rate="0.10" --commission-max-rate="0.20" --commission-max-change-rate="0.01" --min-self-delegation="1000000" --gas="auto"	--from="$address" --fees="555$denom" -y
+$binary tx staking create-validator --amount="1000000$DENOM" --pubkey=$($binary tendermint show-validator) --moniker="$MONIKER"	--chain-id="$CHAIN"	--commission-rate="0.10" --commission-max-rate="0.20" --commission-max-change-rate="0.01" --min-self-delegation="1000000" --gas="auto"	--from="$address" --fees="555$DENOM" -y
 ```
 
 Check validator pubkey | Проверить pubkey валидатора
@@ -68,19 +68,19 @@ $binary query staking validator <valoper_address>
 ```
 
 ```
-$binary query staking validators --limit 1000000 -o json | jq '.validators[] | select(.description.moniker=="<имя_ноды>")' | jq
+$binary query staking validators --limit 1000000 -o json | jq '.validators[] | select(.description.moniker=="$MONIKER")' | jq
 ```
   
 Collect commissions + rewards | Собрать комиссионные + реварды
 
 ```
-$binary tx distribution withdraw-rewards <valoper_address> --from <ADDRESS> --fees 500$denom --commission -y
+$binary tx distribution withdraw-rewards <valoper_address> --from <ADDRESS> --fees 500$DENOM --commission -y
 ```
 
 Delegate 1 token to yourself (1 token = 1,000,000 tokens) | Заделегировать себе  1 токен (1 токен = 1 000 000 uтокена)
 
 ```
-$binary tx staking delegate <valoper_address> 1000000$denom --from <ADDRESS> --fees 500$denom -y
+$binary tx staking delegate <valoper_address> 1000000$DENOM --from <ADDRESS> --fees 500$DENOM -y
 ```
 
 [UP | Наверх](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#commands-for-the-command-line-of-cosmos-sdk-ecosystem-projects) .
@@ -103,19 +103,19 @@ $binary q gov proposals --voter <ADDRESS>
 Vote for the proposal | Проголосовать за предложение 
 
 ```
-$binary tx gov vote 1 yes --from <ADDRESS> --fees 555$denom
+$binary tx gov vote 1 yes --from <ADDRESS> --fees 555$DENOM
 ```
   
 Make a deposit to the proposal | Внести депозит в предложение
 
 ```
-$binary tx gov deposit 1 1000000utori --from <ADDRESS> --fees 555$denom
+$binary tx gov deposit 1 1000000$DENOM --from <ADDRESS> --fees 555$DENOM
 ```
 
 Create an proposal | Создать предложение
 
 ```
-$binary tx gov submit-proposal --title="Randomly reward" --description="Reward 10 testnet participants who completed more than 3 tasks" --type="Text" --deposit="11000000$denom" --from <ADDRESS> --fees 500$denom
+$binary tx gov submit-proposal --title="Randomly reward" --description="Reward 10 testnet participants who completed more than 3 tasks" --type="Text" --deposit="11000000$DENOM" --from <ADDRESS> --fees 500$DENOM
 ```
   
 [UP | Наверх](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#commands-for-the-command-line-of-cosmos-sdk-ecosystem-projects) .
@@ -138,7 +138,7 @@ $binary q slashing params
 Get out of jail | Выбраться из тюрьмы
 
 ```
-$binary tx slashing unjail --from <ADDRESS> --fees 500$denom -y
+$binary tx slashing unjail --from <ADDRESS> --fees 500$DENOM -y
 ```
 
 ```
