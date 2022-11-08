@@ -1,9 +1,9 @@
 ## Commands for the command line of Cosmos SDK ecosystem projects.
 ## Команды для командной строки проектов экосистемы Cosmos SDK.
 
-> $binary - here is the binary file of the project, each has its own, like denom and chain-id
+> $BINARY - here is the binary file of the project, each has its own, like denom and chain-id
  
-> $binary - здесь бинарный файл проекта, у каждого он свой, как и denom и chain-id
+> $BINARY - здесь бинарный файл проекта, у каждого он свой, как и denom и chain-id
 
  1. [Account (wallet) commands | Команды аккаунта (кошелька)](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#account-wallet-commands)
  2. [Validator Commands | Команды валидатора](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#validator-commands)
@@ -17,31 +17,31 @@
 Create wallet | Cоздать кошелек
 
 ```
-$binary keys add <WALLET_NAME> --keyring-backend os
+$BINARY keys add <WALLET_NAME> --keyring-backend os
 ```
 
 Restore wallet (after insert seed command) | Восстановить кошелек (после команды вставить seed)
 
 ```
-$binary keys add <WALLET_NAME> --recover --keyring-backend os
+$BINARY keys add <WALLET_NAME> --recover --keyring-backend os
 ```
 
 Connect ledger wallet | Подключить кошелек ledger
 
 ```
-$binary keys add <WALLET_NAME> --ledger 
+$BINARY keys add <WALLET_NAME> --ledger 
 ```
 
 Check balance | Проверить баланс
 
 ```
-$binary q bank balances <ADDRESS>
+$BINARY q bank balances <ADDRESS>
 ```
 
 Send 1 token to another address | Отправить 1 токен на другой адрес
 
 ```
-$binary tx bank send <ADDRESS_FROM> <ADDRESS_TO> 1000000$DENOM --fees 500$DENOM -y
+$BINARY tx bank send <ADDRESS_FROM> <ADDRESS_TO> 1000000$DENOM --fees 500$DENOM -y
 ```
 
 [UP | Наверх](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#commands-for-the-command-line-of-cosmos-sdk-ecosystem-projects) .
@@ -52,35 +52,35 @@ $binary tx bank send <ADDRESS_FROM> <ADDRESS_TO> 1000000$DENOM --fees 500$DENOM 
 Create a validator | Создать валидатора
 
 ```
-$binary tx staking create-validator --amount="1000000$DENOM" --pubkey=$($binary tendermint show-validator) --moniker="$MONIKER"	--chain-id="$CHAIN"	--commission-rate="0.10" --commission-max-rate="0.20" --commission-max-change-rate="0.01" --min-self-delegation="1000000" --gas="auto"	--from="$address" --fees="555$DENOM" -y
+$BINARY tx staking create-validator --amount="1000000$DENOM" --pubkey=$($BINARY tendermint show-validator) --moniker="$MONIKER"	--chain-id="$CHAIN"	--commission-rate="0.10" --commission-max-rate="0.20" --commission-max-change-rate="0.01" --min-self-delegation="1000000" --gas="auto"	--from="$address" --fees="555$DENOM" -y
 ```
 
 Check validator pubkey | Проверить pubkey валидатора
 
 ```
-$binary tendermint show-validator
+$BINARY tendermint show-validator
 ```
 
 Check validator | Проверить валидатора
 
 ```
-$binary query staking validator <valoper_address>
+$BINARY query staking validator <valoper_address>
 ```
 
 ```
-$binary query staking validators --limit 1000000 -o json | jq '.validators[] | select(.description.moniker=="$MONIKER")' | jq
+$BINARY query staking validators --limit 1000000 -o json | jq '.validators[] | select(.description.moniker=="$MONIKER")' | jq
 ```
   
 Collect commissions + rewards | Собрать комиссионные + реварды
 
 ```
-$binary tx distribution withdraw-rewards <valoper_address> --from <ADDRESS> --fees 500$DENOM --commission -y
+$BINARY tx distribution withdraw-rewards <valoper_address> --from <ADDRESS> --fees 500$DENOM --commission -y
 ```
 
-Delegate 1 token to yourself (1 token = 1,000,000 tokens) | Заделегировать себе  1 токен (1 токен = 1 000 000 uтокена)
+Delegate 1 ooo ooo 'u'token to yourself | Заделегировать себе  1 000 000 'u'токен
 
 ```
-$binary tx staking delegate <valoper_address> 1000000$DENOM --from <ADDRESS> --fees 500$DENOM -y
+$BINARY tx staking delegate <valoper_address> 1000000$DENOM --from <ADDRESS> --fees 500$DENOM -y
 ```
 
 [UP | Наверх](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#commands-for-the-command-line-of-cosmos-sdk-ecosystem-projects) .
@@ -91,31 +91,31 @@ $binary tx staking delegate <valoper_address> 1000000$DENOM --from <ADDRESS> --f
 Proposal list | Список предложений
 
 ```
-$binary q gov proposals
+$BINARY q gov proposals
 ```
   
 View the result of the vote | Посмотреть результат голосования
 
 ```
-$binary q gov proposals --voter <ADDRESS>
+$BINARY q gov proposals --voter <ADDRESS>
 ```
   
 Vote for the proposal | Проголосовать за предложение 
 
 ```
-$binary tx gov vote 1 yes --from <ADDRESS> --fees 555$DENOM
+$BINARY tx gov vote 1 yes --from <ADDRESS> --fees 555$DENOM
 ```
   
 Make a deposit to the proposal | Внести депозит в предложение
 
 ```
-$binary tx gov deposit 1 1000000$DENOM --from <ADDRESS> --fees 555$DENOM
+$BINARY tx gov deposit 1 1000000$DENOM --from <ADDRESS> --fees 555$DENOM
 ```
 
 Create an proposal | Создать предложение
 
 ```
-$binary tx gov submit-proposal --title="Randomly reward" --description="Reward 10 testnet participants who completed more than 3 tasks" --type="Text" --deposit="11000000$DENOM" --from <ADDRESS> --fees 500$DENOM
+$BINARY tx gov submit-proposal --title="Randomly reward" --description="Reward 10 testnet participants who completed more than 3 tasks" --type="Text" --deposit="11000000$DENOM" --from <ADDRESS> --fees 500$DENOM
 ```
   
 [UP | Наверх](https://github.com/Dimokus88/guides/blob/main/Cosmos%20SDK/COMMAND.MD#commands-for-the-command-line-of-cosmos-sdk-ecosystem-projects) .
@@ -128,21 +128,21 @@ $binary tx gov submit-proposal --title="Randomly reward" --description="Reward 1
 Network settings | Параметры сети
 
 ```
-$binary q staking params
+$BINARY q staking params
 ```
 
 ```
-$binary q slashing params
+$BINARY q slashing params
 ```
 
 Get out of jail | Выбраться из тюрьмы
 
 ```
-$binary tx slashing unjail --from <ADDRESS> --fees 500$DENOM -y
+$BINARY tx slashing unjail --from <ADDRESS> --fees 500$DENOM -y
 ```
 
 ```
-$binary q slashing signing-info $($binary tendermint show-validator)
+$BINARY q slashing signing-info $($BINARY tendermint show-validator)
 ```
 
 Check Status | Проверить статус
