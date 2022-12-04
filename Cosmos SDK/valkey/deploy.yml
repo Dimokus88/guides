@@ -8,7 +8,8 @@ services:
       - "bash"
       - "-c"
     args:
-      - '/root/go/bin/gaiad init moniker --chain-id GAIA ; echo ====CUT HERE====; cat /root/.gaia/config/priv_validator_key.json ; echo -e "\n====CUT HERE===="; sleep infinity'
+      - '/root/go/bin/gaiad init moniker --chain-id GAIA ; echo ====CUT HERE====; cat /root/.gaia/config/priv_validator_key.json ; echo -e "\n====CUT HERE====";
+      echo -e "\n";echo -e "\n====BASE64 Encode priv_validator_key.json ====" ;cat /root/.gaia/config/priv_validator_key.json | openssl base64 -A ;echo -e "\n=============== END =================";sleep infinity'
     expose:
       - port: 80
         as: 80
